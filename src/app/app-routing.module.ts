@@ -12,7 +12,10 @@ const routes: Routes =
     path: 'home', component: HomeComponent
   },
   {
-    path: '', component: HomeComponent
+    path: '', pathMatch: 'full', redirectTo: 'home'
+  },
+  {
+    path: 'home', component: HomeComponent
   },
   {
     path: 'experiencias', component: ExperienciasComponent
