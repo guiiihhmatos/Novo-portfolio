@@ -1,0 +1,114 @@
+/* ===== Imports ===== */
+
+@import url('https://fonts.googleapis.com/css2?family=Saira+Extra+Condensed:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Blinker:wght@300&display=swap');
+
+/* ===== Container de Conteudo ===== */
+
+.main
+{
+    height: 95vh;
+    background-color: #000000;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Blinker', sans-serif;
+    align-items: center;
+}
+
+.container
+{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 70vh;
+    margin-top: 10vh;
+}
+
+/* ======== Container left ========*/
+
+.container-left
+{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.title-sistemas
+{
+    color: white;
+    font-family: 'Saira Extra Condensed', sans-serif;
+}
+
+.conteudo
+{
+    color: white;
+}
+
+.mobile
+{
+  display: none;
+}
+
+.estagio
+{
+  color: #69EAF2;
+}
+
+.tecnologias
+{
+  color: #69EAF2;
+  margin-top: 10vh;
+  margin-bottom: 3vh;
+}
+
+/* ======== Container right ========*/
+
+.container-right
+{
+    width: 25%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+/* ===== Media screen ===== */
+
+@media only screen and (max-width: 1000px)
+{
+  .container-right
+  {
+    display: none;
+  }
+
+  .container-left
+  {
+    width: 90%;
+  }
+  .mobile
+  {
+    display: block;
+  }
+
+  .main
+  {
+    height: 200vh;
+  }
+
+  .title-sistemas
+  {
+    margin-top: 10vh;
+    margin-bottom: 0;
+  }
+}
+
+@media only screen and (max-width: 1400px)
+{
+  .container-right
+  {
+    width: 50%;
+  }
+}

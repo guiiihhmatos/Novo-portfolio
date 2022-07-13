@@ -1,0 +1,63 @@
+
+/* ===== Icones ===== */
+
+.social-icons
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.social-icons .social-icon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  height: 3.5rem;
+  width: 3.5rem;
+  background-color: #495057;
+  border-radius: 100%;
+  font-size: 1.5rem;
+  margin-right: 1.5rem;
+}
+.social-icons .social-icon:last-child {
+  margin-right: 0;
+}
+
+.social-icons .social-icon:nth-child(1) {
+  margin-left: 1.5rem;
+}
+.social-icons .social-icon:hover {
+  background-color: #69EAF2;
+}
+
+/* ===== Foto do Perfil ===== */
+
+.foto-perfil
+{
+    border-radius: 50%;
+    padding: 4px;
+    border: 2px solid #69EAF2;
+
+}
+
+/* ===== Media screen ===== */
+
+@media only screen and (max-width: 1000px)
+{
+  .social-icons
+  {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .social-icons .social-icon:last-child {
+    margin-right: 1.5rem;
+  }
+
+  .social-icons .social-icon
+  {
+    margin-top: 1.5rem;
+  }
+}

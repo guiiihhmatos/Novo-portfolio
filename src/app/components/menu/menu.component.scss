@@ -1,0 +1,75 @@
+
+li
+{
+  cursor: pointer;
+}
+
+.title-portifolio
+{
+  color: #69EAF2;
+}
+
+.teste
+{
+  background-color: white;
+}
+/* ========  Menu Mobile ========*/
+
+.menu-mobile
+{
+  position: -webkit-sticky; /* Necessário para funcionar no Safari */
+  position: sticky;
+  top: 0;
+}
+.menu
+{
+  min-height: 10vh;
+  background-color: #000000;
+  border-bottom: 2px solid #69EAF2;
+}
+
+.menu-lateral
+{
+  background-color: #0d0c0c;
+}
+
+.menu-lateral h1
+{
+  color: white;
+}
+
+.botao
+{
+  background-color: #69EAF2;
+}
+
+.nav-item a
+{
+  color: white;
+}
+
+.nav-item:hover
+{
+  background-color: #69EAF2;
+}
+
+.active
+{
+  background-color: #69EAF2;
+}
+
+.active a
+{
+  color: black;
+}
+.nav-item
+{
+  margin-top: 1vh;
+  font-size: 16px;
+  padding-left: 1vw;
+  height: 5vh;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
