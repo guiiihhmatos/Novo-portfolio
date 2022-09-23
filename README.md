@@ -1,4 +1,7 @@
-# Curriculo
+# Curriculo!
+
+[image](https://user-images.githubusercontent.com/82165817/178972683-62e5cbc6-b247-42be-a569-574407d6fa66.png)
+
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.0.2.
 
