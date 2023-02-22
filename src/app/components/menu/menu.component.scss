@@ -32,11 +32,6 @@ li
   background-color: #0d0c0c;
 }
 
-.menu-lateral h1
-{
-  color: white;
-}
-
 .botao
 {
   background-color: #69EAF2;
@@ -50,6 +45,11 @@ li
 .nav-item:hover
 {
   background-color: #69EAF2;
+}
+
+.nav-item a:hover
+{
+  color: black;
 }
 
 .active
